@@ -23,3 +23,8 @@ narrow down only to data scientist type roles under the Uber company I was able 
 ## 3. Data Analysis:
 I ran my analysis on about 1,000 employee profiles. The analysis code is in the Jypyter python notebook "DataAnalysis.ipynb".
 
+## Libraries Used:
+1. Selenium
+2. BeautifulSoup
+3. Pandas
+4. Matplotlib
