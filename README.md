@@ -1,4 +1,4 @@
-# LinkedIn-Scrapper
+# LinkedIn-Scraper
 
 The objective of this project was to explore the data related job market and it's requirements
 within the industry.More particularly within the company Uber. Also, I wanted to gain more knowledge and experience in web-scraping.
@@ -8,18 +8,17 @@ As of 2019, LinkedIn has 610 million registered members in 200 countries. Of the
 
 The project is divided into three parts:
 
-## 1. Profile Scrapper:
+## 1. Profile Scraper:
 I used selenium and beautiful soup to web-scrape Uber's LinkedIn profile. I created a pandas table which consisted of the scraped
-information such as employees name, job title, location, and the profile link to the current employee's profile. Then saved the outputs to a csv file. The code foe this part is in 
-"LinkedInScrap.py".
+information such as employees name, job title, location, and the profile link to the current employee's profile. Then saved the outputs to a csv file. The code for this part is in "LinkedInScraper.py".
 
 
-## 2. CSV Scrapper:
+## 2. CSV Scraper:
 Once the cvs file was created, I started another scraping process which consisted of scraping the output cvs file from the previous scrape
 that went into each profile link to grab the information needed for my analysis. This second scrape included information from each employee's experience,
 education, and skills. Once I was able to retrieve this information I was able to narrow the results down to only "data scientists" type roles. Once I was able to 
-narrow down only to data scientist type roles under the Uber company I was able to make the observations needed to make my conclusions. The code foe this part is in 
-"ProfileScrap.py".
+narrow down only to data scientist type roles under the Uber company I was able to make the observations needed to make my conclusions. The code for this part is in 
+"ProfileScraper.py".
 
 ## 3. Data Analysis:
 I ran my analysis on about 1,000 employee profiles. The analysis code is in the Jypyter python notebook "DataAnalysis.ipynb".
